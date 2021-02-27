@@ -1,0 +1,97 @@
+.header{
+  height: 80px;
+}
+.header-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+.header-title{
+  font-size: 25px;
+  margin-left: 30px;
+  color: black;
+  line-height: 70px;
+}
+.header-nav ul{
+  display: flex;
+}
+.header-nav li{
+  margin-right: 30px;
+}
+.header-nav a{
+  color: black;
+  text-decoration: none;
+}
+
+
+#eyecatch{
+  height: 600px;
+  background: url(../img/mv.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#eyecatch h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 38px;
+  color: white;
+}
+#eyecatch p{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 20px;
+  color: white;
+}
+
+.management-philosophy{
+  height: 320px;
+  background-color: black;
+  overflow: hidden;
+}
+.management-philosophy h1,p{
+  color: white;
+}
+.management-philosophy h1{
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  top: 30%;
+  left: 10%;
+}
+.management-philosophy p{
+  position: relative;
+  top: 40%;
+  left: 10%;
+  width: 80%;
+  max-width: 100%;
+}
+
+
+.service{
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+.service-title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.service-1,.service-2,
+.service-3,.service-4{
+  transform: scale(0.8);
+}
+
