@@ -77,10 +77,8 @@
 
 
 .service{
-  max-width: 100%;
-  flex-wrap: wrap;
   justify-content: center;
-  display: flex;
+  width: 100%;
 }
 .service-title{
   text-align: center;
@@ -90,8 +88,32 @@
   margin-top: 100px;
   margin-bottom: 20px;
 }
-.service-1,.service-2,
-.service-3,.service-4{
-  transform: scale(0.8);
+.service-up{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
 }
+.service-down{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.service-img{
+  width: 100%;
+  object-fit: cover;
+}
+.service-4,
+.service-3,
+.service-2,
+.service-1{
+  margin: 30px;
+}
+.service h2{
+  font-size: 20px;
+  margin: 10px;
+}
+.service p{
+  color: black;
+}
+
 
