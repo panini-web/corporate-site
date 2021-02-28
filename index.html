@@ -71,23 +71,25 @@
   </div>
 
   <div class="news">
-    <h1 class="news-title">ニュース</h1>
-    <div class="news-button-wrap">
+    <div class="news-top">
+      <h1 class="news-title">ニュース</h1>
+      <div class="news-button-wrap">
       <button class="news-button" type="button">ニュース一覧をみる</button>
+      </div>
     </div>
 
     <div class="news-wrap">
       <div class="news-1">
       <h2 class="news-day">2019/07/17</h2>
-      <p class="nwes-topic">会社を創業しました。</p>
+      <p class="news-topic">会社を創業しました。</p>
       </div>
       <div class="news-2">
         <h2 class="news-day">2020/04/01</h2>
-        <p class="nwes-topic">資金調達を行いました。</p>
+        <p class="news-topic">資金調達を行いました。</p>
       </div>
       <div class="news-3">
           <h2 class="news-day">2020/10/01</h2>
-          <p class="nwes-topic">東京新聞に掲載されました。</p>
+          <p class="news-topic">東京新聞に掲載されました。</p>
       </div>
     </div>
   </div>
@@ -96,17 +98,17 @@
         <h1 class="blog-title">社員ブログ</h1>
       <div class="blog-wrap">
           <div class="blog-a">
-          <img src="img/blog.png">
+          <img src="img/blog.png" class="blog-img">
           <h3>2020/07/17</h3>
           <p>会社を創業した理由</p>
           </div>
           <div class="blog-b">
-            <img src="img/blog.png">
+            <img src="img/blog.png" class="blog-img">
             <h3>2020/11/11</h3>
             <p>ITエンジニアを育成する最強メソッド</p>
             </div>
             <div class="blog-c">
-              <img src="img/blog.png">
+              <img src="img/blog.png" class="blog-img">
               <h3>2020/08/01</h3>
               <p>コーチングによるモチベーション向上理論</p>
               </div>
@@ -128,10 +130,14 @@
     <div class="form">
       <h1 class="form-title">お問い合わせ</h1>
       <p class="form-subtitle">お仕事のご依頼や採用に関しましてはお問い合わせにて承っております。</p>
-      <button class="form-button" type="button"></button>
+      <div class="form-button-wrap">
+        <a class="form-button" href="#">
+          お問い合わせ
+        </a>
+      </div>
     </div>
 
-    <footer>
+    <footer class="footer">
       <div class="footer-wrap">
         <h1 class="footer-logo">©2020 TECH inc.</h1>
         <nav class="footer-nav">
@@ -140,7 +146,7 @@
             <li><a href="#">事業内容</a></li>
             <li><a href="#">ニュース</a></li>
             <li><a href="#">社員ブログ</a></li>
-            <li><a href="#"></a>会社概要採用情報</li>
+            <li><a href="#">会社概要</a></li>
             <li><a href="#">採用情報</a></li>
             <li><a href="#">お問い合わせ</a></li>
 

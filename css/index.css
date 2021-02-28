@@ -61,7 +61,7 @@
   color: white;
 }
 .management-philosophy h1{
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   position: relative;
   top: 30%;
@@ -79,6 +79,7 @@
 .service{
   justify-content: center;
   width: 100%;
+  margin-bottom: 100px;
 }
 .service-title{
   text-align: center;
@@ -107,6 +108,7 @@
 .service-2,
 .service-1{
   margin: 30px;
+  width: 100%;
 }
 .service h2{
   font-size: 20px;
@@ -114,6 +116,225 @@
 }
 .service p{
   color: black;
+}
+.service-button{
+  padding: 15px 50px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  background-color: red;
+  text-align: center;
+  position: absolute;
+  left: 30%;
+  width: 30%;
+}
+
+.news{
+  background-color: black;
+  height: 400px;
+}
+.news-title{
+  color: white;
+  font-size: 30px;
+  padding-top: 100px;
+  margin-left: 200px;
+}
+.news-button{
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  background-color: red;
+  text-align: center;
+  position: relative;
+  right: 235px;
+  top: 100px;
+  padding: 5px 10px;
+  border: none;
+}
+.news-top{
+  display: flex;
+  justify-content: space-between;
+}
+.news-wrap{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 200px;
+  color: black;
+}
+.news-topic{
+  color: black;
+  text-align: center;
+  line-height: 40px;
+}
+.news-day{
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.news-1,
+.news-2,
+.news-3{
+  display: flex;
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+  width: 80%;
+  color: black;
+  height: 40px;
+}
+
+
+
+.blog{
+  height: 500px;
+  width: 100%;
+}
+.blog-title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.blog-wrap{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  
+}
+.blog-img{
+  object-fit: cover;
+  width: 100%;
+}
+.blog-a,
+.blog-b,
+.blog-c{
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.blog h3{
+  color: gray;
+}
+.blog p{
+  color: black;
+  font-size: 16px;
+  padding-top: 10px;
+  font-weight: bolder;
+}
+.blog-button-wrap{
+  width: 100%;
+  text-align: center;
+}
+.blog-button{
+  padding: 15px 80px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  background-color: red;
+  position: relative;
+  top: 100px;
+}
+
+
+.about-recruit{
+  display: flex;
+  width: 100%;
+  height: 250px;
+}
+.about{
+  width: 50%;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  line-height: 250px;
+}
+.recruit{
+  width: 50%;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  line-height: 250px;
+}
+
+
+.form{
+  width: 100%;
+  margin-top: 100px;
+  background-color:#F5F6F9;
+  height: 300px;
+}
+.form-title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+  top: 30%;
+}
+.form-subtitle{
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  position: relative;
+  top: 30%;
+  color: black;
+}
+.form-button-wrap{
+  width: 100%;
+  text-align: center;
+}
+.form-button{
+  padding: 15px 80px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  background-color: red;
+  position: relative;
+  top: 100px;
+}
+
+.footer{
+  height: 50px;
+}
+.footer-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  line-height: 50px;
+  background-color: black;
+}
+.footer-logo{
+  font-size: 14px;
+  margin-left: 80px;
+  color:white;
+}
+.footer-nav ul{
+  display: flex;
+  margin-right: 100px;
+}
+.footer-nav li{
+  margin-right: 10px;
+  font-size: 12px;
+}
+.footer-nav li:not(:first-child)::before{
+  content: "|";
+  color: white;
+  padding-right: 10px;
+}
+.footer-nav a{
+  color: white;
+  text-decoration: none;
 }
 
 
