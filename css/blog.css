@@ -1,0 +1,156 @@
+.header{
+  height: 80px;
+}
+.header-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+.header-title{
+  font-size: 25px;
+  margin-left: 30px;
+  color: black;
+  line-height: 70px;
+}
+.header-nav ul{
+  display: flex;
+}
+.header-nav li{
+  margin-right: 30px;
+}
+.header-nav a{
+  color: black;
+  text-decoration: none;
+}
+
+
+#eyecatch{
+  height: 300px;
+  background: url(../img/mv.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#eyecatch h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+}
+
+
+.blog{
+  height: 500px;
+  width: 100%;
+  margin-top: 100px;
+}
+.blog-up,
+.blog-down{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  
+}
+.blog-img{
+  object-fit: cover;
+  width: 100%;
+}
+.blog-a,
+.blog-b,
+.blog-c,
+.blog-d,
+.blog-e,
+.blog-f{
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.blog h3{
+  color: gray;
+}
+.blog p{
+  color: black;
+  font-size: 16px;
+  padding-top: 10px;
+  font-weight: bolder;
+}
+
+
+.form{
+  width: 100%;
+  margin-top: 100px;
+  background-color:#F5F6F9;
+  height: 300px;
+}
+.form-title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+  top: 30%;
+}
+.form-subtitle{
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  position: relative;
+  top: 30%;
+  color: black;
+}
+.form-button-wrap{
+  width: 100%;
+  text-align: center;
+}
+.form-button{
+  padding: 15px 80px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  background-color: red;
+  position: relative;
+  top: 100px;
+}
+
+
+.footer{
+  height: 50px;
+}
+.footer-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  line-height: 50px;
+  background-color: black;
+}
+.footer-logo{
+  font-size: 14px;
+  margin-left: 80px;
+  color:white;
+}
+.footer-nav ul{
+  display: flex;
+  margin-right: 100px;
+}
+.footer-nav li{
+  margin-right: 10px;
+  font-size: 12px;
+}
+.footer-nav li:not(:first-child)::before{
+  content: "|";
+  color: white;
+  padding-right: 10px;
+}
+.footer-nav a{
+  color: white;
+  text-decoration: none;
+}
