@@ -384,7 +384,9 @@
 
   .header-wrap{
     width: 100%;
-    
+  }
+  .header-title{
+    margin: 0;
   }
 
   
@@ -469,26 +471,32 @@
   .footer{
     width: 100%;
   }
+  .footer-nav ul{
+    display: block;
+    width: 100%;
+  }
+  
   .footer-wrap{
     width: 100%;
     flex-wrap: wrap;
   }
-  .footer-wrap hr{
-    display: none;
-  }
-
-  .footer-nav li{
-    width: 100%;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    content: none;
-  }
+  
 
   .footer-nav li:not(:first-child)::before{
     content: none;
   }
-  .footer-nav a{
+  
+  .footer-logo{
     width: 100%;
+  }
+  .footer-logo h1{
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .footer-wrap li{
+    position: relative;
+    left: 50%;
   }
 
   
