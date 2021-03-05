@@ -487,16 +487,14 @@
   }
   
   .footer-logo{
+    text-align: center;
     width: 100%;
+    margin: 0;
   }
-  .footer-logo h1{
-    margin: 0 auto;
-    width: 100%;
-  }
-  
-  .footer-wrap li{
-    position: relative;
-    left: 50%;
+ 
+  .footer-wrap ul{
+   text-align: center;
+   margin: 0;
   }
 
   
