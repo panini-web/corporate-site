@@ -154,3 +154,65 @@ table td{
   text-decoration: none;
 }
 
+@media screen and (max-width: 768px){
+  #hamburger {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    top: 15px;
+    right: 10px;
+    transition: 0.4s;
+  }
+  
+  #hamburger span {
+    position: absolute;
+    left: 2px;
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: black;
+    transition: 0.8s;
+  }
+  
+  #hamburger span:nth-of-type(1) {
+    top: 10px; /* ハンバーガーメニューの1本目の棒 */
+  }
+  
+  #hamburger span:nth-of-type(2) {
+    top: 20px; /* ハンバーガーメニューの2本目の棒 */
+  }
+  
+  #hamburger span:nth-of-type(3) {
+    top: 30px; /* ハンバーガーメニューの3本目の棒 */
+  }
+  
+  .header-nav {
+    display: none; /* デスクトップのナビを消す */
+  }
+
+  .header-wrap{
+    width: 100%;
+  }
+  .header-title{
+    margin: 0;
+  }
+
+  .recruit-a{
+    width: 100%;
+  }
+
+  .table-1{
+    width: 90%;
+  }
+  .table-1 td,
+  .table-1 th{
+    padding: 5%;
+  }
+
+  .sub-title{
+  width: 100%;
+  position: static;
+}
+}

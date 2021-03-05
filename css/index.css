@@ -414,8 +414,11 @@
     width: 80%;
     margin: 0 auto;
   }
+
+  
   .service-button{
-    margin: 0 auto;
+    position: absolute;
+    left: 20%;
   }
 
   .news{
@@ -469,6 +472,9 @@
   }
 
   .footer{
+    width: 100%;
+  }
+  .footer-nav{
     width: 100%;
   }
   .footer-nav ul{
