@@ -158,7 +158,7 @@ table td{
   #hamburger {
     width: 40px;
     height: 40px;
-    position: absolute;
+    position: fixed;
     cursor: pointer;
     z-index: 100;
     top: 15px;
@@ -214,5 +214,37 @@ table td{
   .sub-title{
   width: 100%;
   position: static;
+}
+
+.footer{
+  width: 100%;
+}
+.footer-nav{
+  width: 100%;
+}
+.footer-nav ul{
+  display: block;
+  width: 100%;
+}
+
+.footer-wrap{
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+.footer-nav li:not(:first-child)::before{
+  content: none;
+}
+
+.footer-logo{
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+.footer-wrap ul{
+ text-align: center;
+ margin: 0;
 }
 }
